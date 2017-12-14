@@ -151,7 +151,7 @@ esac
 
 echo -e "${YELLOW}Downloading the latest version of ${NC}Trudesk${RED}.${NC}"
 cd /etc/
-git clone http://www.github.com/polonel/trudesk
+git clone https://github.com/devopsgitdemo/TrudeskMain.git
 cd /etc/trudesk
 touch /etc/trudesk/logs/output.log
 echo -e "${BLUE}Building...${NC}"
